@@ -8,6 +8,24 @@
  * Email:      rn53themes@gmail.com
  * Website:    http://www.rn53themes.net 
  -----------------------------------------------*/
+
+ /* Hide the element on all screen sizes */
+/* Hide the element on all screen sizes */
+.hidden {
+    display: none !important;
+  }
+  
+  /* Display the element as a block on medium-sized screens and larger */
+  .visible-md-block {
+    display: block !important;
+  }
+  
+  /* Display the element as a block on large screens and larger */
+  .visible-lg-block {
+    display: block !important;
+  }
+  
+  
 html {
      font-family: sans-serif;
      -webkit-text-size-adjust: 100%;
@@ -1058,6 +1076,11 @@ html {
 }
  img {
      vertical-align: middle;
+}
+.carousel-inners{
+   display: block; 
+   max-width: 1280px;
+   height: auto;
 }
  .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
      display: block;
